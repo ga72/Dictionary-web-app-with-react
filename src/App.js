@@ -38,14 +38,16 @@ function App() {
 	};
 	return (
 		<div className='container'>
-			<TopBar />
-			<SearchBox onSearch={searchHandler} onTyping={reset} />
-			<Main
-				idle={idle}
-				searching={searching}
-				notFound={notFound}
-				content={content}
-			/>
+
+		<h1>Ghadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+			// <TopBar />
+			// <SearchBox onSearch={searchHandler} onTyping={reset} />
+			// <Main
+			// 	idle={idle}
+			// 	searching={searching}
+			// 	notFound={notFound}
+			// 	content={content}
+			// />
 		</div>
 	);
 }
