@@ -39,15 +39,14 @@ function App() {
 	return (
 		<div className='container'>
 
-		<h1>Ghadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
-			// <TopBar />
-			// <SearchBox onSearch={searchHandler} onTyping={reset} />
-			// <Main
-			// 	idle={idle}
-			// 	searching={searching}
-			// 	notFound={notFound}
-			// 	content={content}
-			// />
+			<TopBar />
+			<SearchBox onSearch={searchHandler} onTyping={reset} />
+			<Main
+				idle={idle}
+				searching={searching}
+				notFound={notFound}
+				content={content}
+			/>
 		</div>
 	);
 }
